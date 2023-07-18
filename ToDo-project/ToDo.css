@@ -1,0 +1,76 @@
+.Add-button{
+    height: 30px;
+    opacity: 0.8;
+    border-radius: 0px 5px 5px 0px;
+    background-color: white;  
+    display: inline;
+    border-color: gold;
+    border-width: 1.5px;
+    border-left-width: 0px;
+    border-style: groove;
+    position: relative;
+    border-style: solid;
+    margin-left: -4px;
+
+}
+.tooltip{
+ position: absolute;
+ opacity: 0;
+ display: inline;
+ white-space: nowrap;
+ top: 40px;
+ left: 0px;
+ transition-property: opacity;
+ transition-duration: 200ms;
+ pointer-events: none;
+ 
+}
+.Add-button:hover .tooltip{
+    opacity: 1;
+}
+.Add-button:active .tooltip{
+    opacity: 0;
+}
+.Add-button:active{
+    background-color: darkred;
+    border-color: rgb(221, 42, 42);
+    
+}
+.Input-task{
+    height: 26px;
+    border-radius: 5px 0px 0px 5px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-right-width: 1px;
+    border-color: gold;
+    border-right-color: black;
+    margin-right: 0px;
+}
+.List{
+    display: inline;
+    border-width: 2px;
+    padding-left: 10px;
+}
+.task-button{
+    background-color: red;
+    color: white;
+    border-radius: 2.5px;
+    border-style: solid;
+    position: absolute;
+    right: 10px;
+    z-index: 2;
+}
+.divList{
+    margin-top: 15px;
+    z-index: -1;
+    pointer-events: none;
+}
+.due-date{
+    padding: 5px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 10px;
+    border-color: yellow;
+}
+    
